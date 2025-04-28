@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Polar Escape Resort Contact</title>
+        <meta name="author" content="Mequila Murarik">
+        <meta name="description" content="Polar Escape Resort Contact">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="https://use.typekit.net/nar1vhq.css">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="index.html" aria-label="Go to Polar Escape Resort Homepage">Polar Escape Resort</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#accommodations">Accommodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/swiss-valley.jpg" alt="cloudy wide grassy valley with evergreen trees and mountains with snow in the background"></a>
+        </header>
+
+        <main>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                <br>Required fields marked with a asterisk (<span class="required">*</span>).</p>
+                <img src="images/swiss-sunset.jpg" alt="waterfront view with cabins partially hidden by evergreen trees. yellow and purple sunset in the background behind dark mountains.">
+
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                    <label for="full-name">Full Name<span class="required">*</span></label>
+                    <input type="text" name="full-name" id="full-name" required>
+
+                    <label for="my-email">Email Address<span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email" required>
+
+                    <label for="my-phone">Phone Number<span class="required">*</span></label>
+                    <input type="tel" name="my-phone" id="my-phone" required>
+
+                    <fieldset>
+                        <legend>Preferred Method of Contact<span class="required">*</span></legend>
+
+                        <input type="radio" name="contact-pref" id="pref-email" value="pref-email" required checked>
+                        <label for="pref-email" id="pref-email">Email</label>
+
+                        <input type="radio" name="contact-pref" id="pref-phone" value="pref-phone" required>
+                        <label for="pref-phone" id="pref-phone">Phone</label>
+                    </fieldset>
+
+                    <label for="my-comments">Comments</label>
+                    <textarea name="my-comments" id="my-comments"></textarea>
+
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                </form>
+            </section>
+        </main>
+    
+        <footer>
+            <p>Copyright &copy; 2023 - Polar Escape Resort</p>
+            <p> This site is for educational purposes only.</p>
+        </footer>
+    </body>
